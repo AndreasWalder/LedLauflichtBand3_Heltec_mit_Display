@@ -1,0 +1,47 @@
+{
+    "name": "TaskScheduler", 
+    "repository": {
+        "url": "https://github.com/arkhipenko/TaskScheduler", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelmegaavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "gd32v", 
+        "infineonxmc", 
+        "intel_arc32", 
+        "kendryte210", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "ststm8", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "3.1.6", 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Anatoli Arkhipenko", 
+            "url": "https://github.com/arkhipenko", 
+            "email": "arkhipenko@hotmail.com"
+        }
+    ], 
+    "keywords": [
+        "taskscheduler", 
+        "scheduling", 
+        "task", 
+        "cooperative", 
+        "multitasking", 
+        "event"
+    ], 
+    "id": 721, 
+    "description": "Cooperative multitasking for Arduino, ESPx, STM32 and other microcontrollers"
+}

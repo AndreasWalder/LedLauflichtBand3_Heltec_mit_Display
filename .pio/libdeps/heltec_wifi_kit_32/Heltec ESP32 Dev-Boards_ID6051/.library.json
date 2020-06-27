@@ -1,0 +1,46 @@
+{
+    "description": "Library for Heltec ESP32 (or ESP32+LoRa) based boards", 
+    "repository": {
+        "url": "https://github.com/HelTecAutomation/Heltec_ESP32", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "espressif32"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": false, 
+            "name": "Heltec Automation", 
+            "url": null, 
+            "email": null
+        }, 
+        {
+            "maintainer": true, 
+            "name": "HelTec", 
+            "url": null, 
+            "email": "support@heltec.cn"
+        }
+    ], 
+    "keywords": [
+        "device", 
+        "control"
+    ], 
+    "id": 6051, 
+    "name": "Heltec ESP32 Dev-Boards", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.1.0", 
+    "homepage": "https://github.com/HelTecAutomation/Heltec_ESP32.git"
+}
