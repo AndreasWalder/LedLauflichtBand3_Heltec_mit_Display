@@ -7,11 +7,11 @@
 #include <string.h>
 #include <FS.h>
 #include <WebServer.h>
-#include "declare.h"; //Includes und Variablen
+#include "declare.h" //Includes und Variablen
 WebServer server(80);
 #include "INIwifimanager.h"
-#include "LedControl.h"; //Ansteuerung Led-Lauflicht
-#include "SerialEvent.h"; //Serielle Auswertung des Strings
+#include "LedControl.h" //Ansteuerung Led-Lauflicht
+#include "SerialEvent.h" //Serielle Auswertung des Strings
 #include "heltec.h"
 #include "LiebherrLogo.h" //Liebherr Logo
 
